@@ -1,0 +1,12 @@
+/** This is a CSS file that sets some basic styles that make writing CSS a bit easier.
+
+You don't need to understand this file right now, and probably shouldn't touch it until you're more comfortable with CSS. */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}

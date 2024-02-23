@@ -1,0 +1,86 @@
+/** 
+    Here's where you can write CSS code to style your website.
+
+    CSS is based on "selectors" - this is how you specify WHAT you want to style. The basic syntax is: 
+    
+    specify an element to style here {
+        put the styles you want to apply here
+    }
+
+    Below are a few examples of how you can write CSS - I recommend playing around with these rules, and adding your own,
+    to see how they affect the website.
+*/
+
+/**
+    This is a CSS rule. It tells the body element to have a bit of padding, so that the content
+    of the website has a bit of room to breathe, instead of being right up against the edges of your screen.
+*/
+body {
+    padding: 16px;
+}
+
+
+/**
+    This is a CSS rule that applies to all elements which have the class "centered". Look in index.html to see how this class is used.
+
+    This rule applies the following styles: 
+
+      - The element should take up the full width of its parent element ("width: 100%"), but no more than 600 pixels ("max-width: 600px")
+      - The element should be centered horizontally (using the "margin: 0 auto" rule)
+*/
+.centered {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/**
+    This is a CSS rule that applies to all elements which have the class "image".
+
+    This rule applies the following styles: 
+
+      - The element should take up the full width of its parent element ("width: 100%")
+*/
+.image {
+    width: 100%;
+}
+
+
+/**
+    And below some more examples of CSS rules you could write
+*/
+
+.welcome-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+}
+
+.buttons {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 16px;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 16px;
+}
+
+/**
+    You can also add styles that apply only in specific scenarios - like only when a button is hovered:
+*/
+.button:hover {
+    background-color: black;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- This is a comment.
+
+        This is the <head></head> section of your website.
+
+        You probably should not touch anything that is above this comment, but let's look at what we have below:
+
+        - This is where you can include CSS files, which are used to style your HTML.
+        - This is where you can include JavaScript files, which are used to add interactivity to your HTML.
+        - And do a bunch of other things, like setting the title of your page.
+
+        Any file not listed here in the <head></head> section will not be included in your website, and won't do anything.
+    -->
+    <title>My website title</title>
+    <link type="text/css" rel="stylesheet" href="./normalize.css">
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <!-- Below here is the <body></body> section of the website. 
+
+    This is where you put all the content that you want to show on your website.
+    -->
+  <body>
+    <div class="centered">
+        <h1 class="welcome-title">Welcome to my website!</h1>
+        <p>This is a paragraph where I introduce myself. I know it's not the prettiest website you've ever seen,
+            but it's something you can take and make better.</p>
+
+        <p>And below is a cool photo I found on the internet</p>
+        <img class="image" src="https://images.unsplash.com/photo-1708481279490-9c7d87d2af42?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+
+        <p>Here is a list of things you can do</p>
+        <ol id="tasks">
+            <li>Edit the content of this website by opening <code>index.html</code></li>
+            <li>Edit the styling of this website by opening <code>style.css</code></li>
+            <li>Add some interactivity by opening <code>index.js</code></li>
+        </ol>
+        <p>Oh, and here's a few buttons you can press to do things on the site:</p>
+        <div class="buttons">
+            <button onClick="changeBackgroundColor()" class="button">Change background</button>
+            <button onClick="changeTextColor()" class="button">Change text color</button>
+            <button onClick="addTask()" class="button">Add a task</button>
+        </div>
+    </div>
+  </body>
+</html>
