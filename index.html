@@ -6,20 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- This is a comment.
 
-        This is the <head></head> section of your website.
+        This is the <head></head> section of your website. This section does not affect what is visible on
+        your website, but sets some metadata and links to other files that are used by your website.
 
         You probably should not touch anything that is above this comment, but let's look at what we have below:
-
-        - This is where you can include CSS files, which are used to style your HTML.
-        - This is where you can include JavaScript files, which are used to add interactivity to your HTML.
-        - And do a bunch of other things, like setting the title of your page.
-
-        Any file not listed here in the <head></head> section will not be included in your website, and won't do anything.
     -->
+
+    <!-- Here we set the title of the website (the one shown in the browser tab) -->
     <title>My website title</title>
+    <!-- Here we tell the website to use the following CSS files. If you don't add your CSS files here, they won't do anything -->
     <link type="text/css" rel="stylesheet" href="./normalize.css">
     <link type="text/css" rel="stylesheet" href="./style.css">
+    <!-- Here we tell the website to use the following JavaScript files. If you don't add your JavaScript files here, they won't do anything -->
     <script type="text/javascript" src="./index.js"></script>
+    <!-- Here we tell the website to use the Roboto font from Google fonts
+
+        You can browse available fonts here: https://fonts.google.com/
+
+        To use a font, you need to include the font below, and then use it in your CSS file.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <!-- Below here is the <body></body> section of the website. 
 
