@@ -20,23 +20,7 @@ function changeTextColor() {
     "What color would you like the text to be? (e.g. red, blue, green, #ff0000, etc.)"
   );
 
-  const pElements = document.getElementsByTagName("p");
-  const h1Elements = document.getElementsByTagName("h1");
-  const liElements = document.getElementsByTagName("li");
-
-  console.log("P elements", pElements);
-
-  for (element of pElements) {
-    element.style.color = newTextColor;
-  }
-
-  for (element of h1Elements) {
-    element.style.color = newTextColor;
-  }
-
-  for (element of liElements) {
-    element.style.color = newTextColor;
-  }
+  document.body.style.color = newTextColor;
 }
 
 /**
